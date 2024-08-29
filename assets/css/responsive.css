@@ -1,0 +1,26 @@
+@media (max-width: 700px) {
+    .remover {
+        display: none;
+    }
+
+    .add {
+        display: block;
+    }
+
+    .hamburguer {
+        width: 50px;
+        padding:10px;
+        cursor: pointer;
+        display: block;
+    }
+
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    header nav {
+        margin: 0;
+    }
+}
